@@ -32,3 +32,14 @@ print("Add result:", add(3,4))
 
 square = lambda x: x * x
 print("Square: ", square(5))
+
+
+# Factorial functions
+
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
+print("Factorial:", factorial(5))
