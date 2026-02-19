@@ -1,6 +1,6 @@
 # Even or Odd (using return)
 
-def even_or_odd(n):
+def even_or_odd(n): 
     if n % 2 == 0:
         return "Even"
     else:
